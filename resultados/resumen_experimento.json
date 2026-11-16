@@ -1,0 +1,37 @@
+{
+  "dataset": "Engine Acoustic Emissions (Kaggle)",
+  "muestras_por_clase": {
+    "normal": 120000,
+    "inner": 120000,
+    "outer": 120000,
+    "roller": 120000
+  },
+  "ventana": 1000,
+  "division": "70/15/15 cronologica antes de segmentar",
+  "segmentos": {
+    "train": 336,
+    "val": 72,
+    "test": 72
+  },
+  "resultados": [
+    {
+      "modelo": "RNN",
+      "exactitud": 0.5416666666666666,
+      "f1_macro": 0.5116995073891626,
+      "epocas": 17
+    },
+    {
+      "modelo": "GRU",
+      "exactitud": 0.8055555555555556,
+      "f1_macro": 0.804953560371517,
+      "epocas": 50
+    },
+    {
+      "modelo": "LSTM_AdamW",
+      "exactitud": 0.5,
+      "f1_macro": 0.38722412041739773,
+      "epocas": 30
+    }
+  ],
+  "advertencia": "Una se\u00f1al continua por clase; validacion preliminar, no industrial."
+}

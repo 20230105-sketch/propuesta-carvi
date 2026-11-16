@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+      normal     0.7500    1.0000    0.8571        18
+       inner     0.4545    0.2778    0.3448        18
+       outer     0.4231    0.6111    0.5000        18
+      roller     0.4545    0.2778    0.3448        18
+
+    accuracy                         0.5417        72
+   macro avg     0.5205    0.5417    0.5117        72
+weighted avg     0.5205    0.5417    0.5117        72
